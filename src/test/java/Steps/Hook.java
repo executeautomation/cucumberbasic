@@ -19,11 +19,17 @@ public class Hook extends BaseUtil{
 
     @Before
     public void InitializeTest() {
-
-        System.out.println("Opening the browser : MOCK");
+        
+System.out.println("Opening the browser : firefox");
+        
+        system.setProperty("webdriver.firefox.marionette", "/home/bpl1600101/Desktop/libs/geckodriver");
+        base.Driver = new FirefoxDriver();
+        
+        
+/*        System.out.println("Opening the browser : MOCK");
 
         //Passing a dummy WebDriver instance step info
-        base.StepInfo = "FirefoxDriver";
+        base.StepInfo = "FirefoxDriver";*/
     }
 
 
