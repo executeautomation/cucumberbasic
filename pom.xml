@@ -7,6 +7,7 @@
     <groupId>groupId</groupId>
     <artifactId>CucumberBasics</artifactId>
     <version>1.0-SNAPSHOT</version>
+         <packaging>war</packaging>
     <properties>
          <maven.compiler.source>1.6</maven.compiler.source>
          <maven.compiler.target>1.6</maven.compiler.target>
@@ -18,6 +19,7 @@
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
+                 <packaging>war</packaging>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
@@ -25,12 +27,14 @@
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
+                 <packaging>war</packaging>
         </dependency>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+                 <packaging>war</packaging>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-picocontainer -->
@@ -38,6 +42,7 @@
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
             <version>1.2.4</version>
+                 <packaging>war</packaging>
         </dependency>
 
     </dependencies>
